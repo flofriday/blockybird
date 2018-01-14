@@ -8,9 +8,11 @@ var ctx = canvas.getContext("2d");
 var up = false;
 
 document.addEventListener("keydown", keyDownHandler);
-document.addEventListener("click", clickHandler);
+//document.addEventListener("click", clickHandler);
+canvas.addEnventListener("touchstart mousedown", clickHandler);
 
-function clickHandler() {
+function clickHandler(e) {
+	e.preventDefault();
 	up = true;
 }
 
