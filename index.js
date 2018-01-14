@@ -8,11 +8,12 @@ var ctx = canvas.getContext("2d");
 var up = false;
 
 document.addEventListener("keydown", keyDownHandler);
-//document.addEventListener("click", clickHandler);
-canvas.addEnventListener("touchstart mousedown", clickHandler);
+document.addEventListener("click", clickHandler);
+document.addEventListener("touchstart", clickHandler);
 
-function clickHandler(e) {
-	e.preventDefault();
+function clickHandler() {
+	//e.preventDefault();
+	console.log("See me?");
 	up = true;
 }
 
