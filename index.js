@@ -9,11 +9,9 @@ var up = false;
 
 document.addEventListener("keydown", keyDownHandler);
 //document.addEventListener("mousedown", clickHandler);
-document.addEventListener("touchstart", clickHandler);
+document.addEventListener("mousedown", clickHandler);
 
 function clickHandler() {
-	//e.preventDefault();
-	console.log("See me?");
 	up = true;
 }
 
