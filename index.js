@@ -102,10 +102,6 @@ function drawEnemy() {
 		ctx.fill();
 		ctx.closePath();
 
-	}
-
-}
-
 /*
  * Some Game essential functions
  */
