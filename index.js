@@ -101,6 +101,8 @@ function drawEnemy() {
 		ctx.fillStyle = "green";
 		ctx.fill();
 		ctx.closePath();
+	}
+}
 
 /*
  * Some Game essential functions
