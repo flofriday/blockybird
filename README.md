@@ -6,7 +6,7 @@ in your browser. Since I was too lazy to implement graphics and used simple
 blocks it is called blocky bird.
 
 ## How to play?
-TODO: live demo?
+[Live Demo.](https://flofriday.github.io/blockybird/)
 
 Download the repo and open index.html with your browser.
 
@@ -26,3 +26,4 @@ even a Pull Request.
 * Fit the canvas nice inside the browser window and not fixed sized
 * Better values for size and speed
 * A way to save highscore locally on machine
+* Support mobile platform
