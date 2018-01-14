@@ -7,7 +7,12 @@ var ctx = canvas.getContext("2d");
  */
 var up = false;
 
-document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keydown", keyDownHandler);
+document.addEventListener("click", clickHandler);
+
+function clickHandler() {
+	up = true;
+}
 
 function keyDownHandler(e) {
 	//Space, Enter or up arrow
